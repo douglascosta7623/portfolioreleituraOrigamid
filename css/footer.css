@@ -1,0 +1,61 @@
+
+.footer{
+  background-color: #1f1f1f;
+}
+
+.footer-container{
+  max-width: 1200px;
+  padding: 120px 40px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 200px;
+  /* justify-items: space-between;
+  align-items: center; */
+}
+
+
+.footer-left{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.footer-left button{
+  font-size: 0.875rem;
+  line-height: 1.4;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color:  rgb(0, 168, 232);
+  border: none;
+  border-radius: 8px;
+  padding: 5px 10px;
+  text-align: center;
+  max-width: 50%;
+
+}
+.footer-texto{
+  font-size: 1.5rem;
+  line-height: 1.33;
+  color: #cccccc;
+}
+
+.footer-contato li{
+  font-weight: bold;
+  font-size: 2.25rem;
+  line-height: 1.1;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+
+.footer-contato li a img{
+    width: 32px;
+    display: block;
+}
+
+.footer-container p{
+  margin-top: 35px;
+}
+
+
